@@ -350,6 +350,7 @@ margin-top: 20pxs;
 {
 
 	background: lightblue;
+    padding-left: 115px;
 }
 .card-wrappers
 {
@@ -358,7 +359,18 @@ margin-top: 20pxs;
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 2rem;
 	grid-row-gap: 6rem;
-    margin-left: -130px;
+    margin-right: 0px;
+   
+}
+
+.card-wrapperss{
+
+    
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 2rem;
+	grid-row-gap: 6rem;
+    margin-right: 7px;
 }
 .section-heading {
     color: var(--secondary);
@@ -538,6 +550,7 @@ section.blog
 {
 	background: green;
 	align-items: center;
+    margin-left: -200px;
 }
 section.blog .card-wrappers .cardd p
 {
@@ -885,7 +898,7 @@ section.blog .card-wrappers {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 2rem;
         grid-row-gap: 6rem;
-        margin-left: -10px;
+        
     }
     section.Conttact .card-wrappers {
         display: grid;
@@ -949,6 +962,12 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     margin-left: 90px;
     
 }  
+
+.teamcontainer{
+    max-width: 1152px;
+    height: 20px;
+    margin-left: 90px;
+}
 
 
 
@@ -1196,6 +1215,7 @@ header.About
     .our-teams {
         background: lightblue;
         height: 5900px;
+        padding-left: 115px;
     }
     section.Conttact .input-wrapper2 {
         display: flex;
@@ -1346,7 +1366,7 @@ section.work .card-wrappers .cardd .overlay {
 }
 
 section.blog {
-    background: gainsboro;
+    background: rgb(19, 156, 19);
     align-items: center;
 }
 
