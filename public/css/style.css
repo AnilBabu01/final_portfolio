@@ -255,6 +255,11 @@ color: var(--ternary);
 
 
 }
+.formcontainer{
+    width: 500px;
+    height: 500px;
+    margin-left: 220px;
+}
 .bar .progress-line .html
 {
 
@@ -346,10 +351,11 @@ margin-top: 20pxs;
 	text-align: center;
 }
 
-.our-teams
-{
-
-	background: lightblue;
+.our-teams {
+    background: lightblue;
+    padding-left: 115px;
+    height: 2600px;
+    margin-left: -100px;
 }
 .card-wrappers
 {
@@ -358,7 +364,18 @@ margin-top: 20pxs;
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 2rem;
 	grid-row-gap: 6rem;
-    margin-left: -130px;
+    margin-right: 0px;
+   
+}
+
+.card-wrapperss{
+
+    
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 2rem;
+	grid-row-gap: 6rem;
+    margin-right: 7px;
 }
 .section-heading {
     color: var(--secondary);
@@ -538,6 +555,7 @@ section.blog
 {
 	background: green;
 	align-items: center;
+        margin-left: -200px;
 }
 section.blog .card-wrappers .cardd p
 {
@@ -582,7 +600,7 @@ section.Conttact .input-wrapper
 {
 
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	grid-gap: 2rem;
 	margin-bottom: 2rem;
 
@@ -675,11 +693,11 @@ footer
  	top: 0;
  	left: 0;
  	z-index: 1001;
- 	background: yellow;
+ 	background: rgb(0, 255, 34);
  	width: 100%;
  	height: 100%;
  	padding: 2rem;
- 	padding-top: 5rem;
+ 	padding-top: 11rem;
  	transform: translateX(-100%);
  	-webkit-trsnsform: translateX(-100%);
  	-moz-transform: translateX(-100%);
@@ -885,12 +903,13 @@ section.blog .card-wrappers {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 2rem;
         grid-row-gap: 6rem;
-        margin-left: -10px;
+        
     }
     section.Conttact .card-wrappers {
         display: grid;
         grid-gap: 3rem;
         margin-left: 230px;
+        margin-top: -80px;
     }
 
     section.Conttact .input-wrapper2 {
@@ -911,7 +930,7 @@ section.blog .card-wrappers {
 
     .Conttact {
         margin-top: px;
-        margin-top: -80px;
+       
     }
 
     .skills-bar
@@ -949,6 +968,12 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     margin-left: 90px;
     
 }  
+
+.teamcontainer{
+    max-width: 1152px;
+    height: 20px;
+    margin-left: 90px;
+}
 
 
 
@@ -1189,13 +1214,51 @@ header.About
 @media (max-width:430px)
 {
 
+    .formcontainer{
+
+        margin-left: 15px;
+    width: 300px;
+    }
+    .section-heading +p {
+        color: #3ab4ef;
+        margin-bottom: 6rem;
+        text-align: center;
+        
+    }
+    .section-heading {
+        color: var(--secondary);
+        text-align: center;
+        margin-bottom: 1rem;
+        line-height: 0.5;
+        margin-top: -80px;
+        
+    }
+            .carddd {
+            margin-left: 200px;
+            background-color: red;
+        }
+
+    
+    .card-wrapperss {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+    margin-right: 7px;
+}
+    section.work .card-wrappers .cardd {
+        position: relative;
+        margin-right: 200px;
+        margin-left: -30px;
+    }
     .card-wrappers {
        
         margin-left: 0px;
     }
     .our-teams {
         background: lightblue;
-        height: 6190px;
+        height: 5900px;
+        padding-left: 115px;
     }
     section.Conttact .input-wrapper2 {
         display: flex;
@@ -1242,7 +1305,7 @@ header.About
     padding: 0 15px;
     margin: 0 auto;
     flex-direction: column;
-    height: 700px;
+    height: 1500px;
 }
 .header {
     background: var(--drak);
@@ -1273,6 +1336,7 @@ header .iconn {
     position: relative;
     padding: 2.5rem;
     text-align: left;
+    margin-left: -10px;
     transition: all .3s ease;
 }
 .skills-bar {
@@ -1329,12 +1393,13 @@ section.Conttact .input-wrapper {
     outline: none;
     cursor: pointer;
     margin-top: -70px;
+    height: 5px;
 }
 
 
 section.work .card-wrappers .cardd .overlay {
-    width: 63.9%;
-    margin-left: 20px;
+    width: 100%;
+    margin-left: -2px;
 }
 
 .ssss
@@ -1346,7 +1411,7 @@ section.work .card-wrappers .cardd .overlay {
 }
 
 section.blog {
-    background: gainsboro;
+    background: rgb(19, 156, 19);
     align-items: center;
 }
 
@@ -1392,7 +1457,11 @@ FORM {
 }
 .homebtn
 {
-    color: #070606;
+    color: #1ae21a;
+    width: 200px;
+    height: 40px;
+    background-color: #6665ee;
+    border-radius: 20px;
 }
 
 
@@ -1401,11 +1470,3 @@ FORM {
     margin-top: 80px;
     margin-left: -50px;
 }
-
-
-
-
-
-
-
-

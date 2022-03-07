@@ -1,5 +1,7 @@
-import React from 'react'
-
+import React from 'react';
+import pro from './images/p.jpg';
+import web from './images/w.jpg';
+import network from './images/n.jpg';
 function Blocks() {
   return (
     <>
@@ -8,11 +10,11 @@ function Blocks() {
     
      <div className="container">
          <h1 className="section-heading"><span>My</span>Blog</h1>
-          <p>We provide high standar clean website for your businees solutions</p>
-        <div className="card-wrappers">
+          <p>We provide high standar clean website for your <br></br> businees solutions</p>
+        <div className="card-wrapperss">
             <div className="carddd">
                 
-                <div className="img-warpper"><img className="sizee" src="./images/n.jpg"/></div>
+                <div className="img-warpper"><img className="sizee" src={ network }/></div>
                  <div className="card-content"></div>
                  
                      <h1>Networking</h1>
@@ -27,7 +29,7 @@ function Blocks() {
 
             <div className="carddd">
                 
-                <div className="img-warpper"><img className="sizee" src="./images/p.jpg"/></div>
+                <div className="img-warpper"><img className="sizee" src={pro}/></div>
                  <div className="card-content"></div>
                  
                      <h1>Programming</h1>
@@ -43,7 +45,7 @@ function Blocks() {
 
             <div className="carddd">
                 
-                <div className="img-warpper"><img className="sizee" src="./images/w.jpg"/></div>
+                <div className="img-warpper"><img className="sizee" src={web}/></div>
                  <div className="card-content"></div>
                  
                      <h1>Web  Technology</h1>

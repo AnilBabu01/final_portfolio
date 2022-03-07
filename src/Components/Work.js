@@ -1,5 +1,7 @@
 import React from 'react'
-
+import port from './images/ph-1.png';
+import port1 from './images/ph-2.png';
+import port2 from './images/ph-3.png';
 function Work() {
   return (
     <>
@@ -16,7 +18,7 @@ function Work() {
                 <span>Category</span>
                 <a href="#">My Portfolio</a>
             </div>
-             <img src="./images/ph-1.png" className="sizes"/>
+             <img src={port} className="sizes"/>
          </div>
 
          <div className="cardd">
@@ -24,7 +26,7 @@ function Work() {
                 <span>Category</span>
                 <a href="https://anilpateel.github.io/anil.github.io/">Abcoder Static website</a>
             </div>
-             <img src="./images/ph-2.png" className="sizes"/>
+             <img src={port1} className="sizes"/>
          </div>
 
          <div className="cardd">
@@ -32,7 +34,7 @@ function Work() {
                 <span>Category</span>
                 <a href="https://anilpateel.github.io/tech.github.io/">Abcoder full Responsive website </a>
             </div>
-             <img src="./images/ph-3.png" className="sizes"/>
+             <img src={port2} className="sizes"/>
          </div>
 
      </div>

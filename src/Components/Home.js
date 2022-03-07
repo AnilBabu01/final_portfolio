@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import anil from'./images/55.jfif';
 import Navbar from "./Navbar";
 function Home() {
   return (
@@ -7,7 +8,7 @@ function Home() {
    
       <div className="hero flex itmeCenter homecontaioner justify-item">
         <div className="left flex1 flex justify-center">
-          <img className="iconn" src="./images/55.jfif" />
+          <img className="iconn" src={anil} />
         </div>
         <div className="right flex1">
           <h6>Anil Babu</h6>
@@ -50,7 +51,7 @@ function Home() {
             life?“, means there are a lot of expectations on your plate.
           </p>
           <div>
-            <button className="btn homebtn btn-decondary">
+            <button className=" homebtn ">
               <a
                 className="yyy"
                 href="https://drive.google.com/file/d/10Zoi7fvJ0B0JciJcH1NdGZ2tAtSptgKG/view?usp=drivesdk"

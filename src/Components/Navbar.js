@@ -18,7 +18,7 @@ function Navbar() {
               </p>
             </div>
             <li>
-              <Link class="a1" to="/">
+              <Link class="a1" to="/final_portfolio">
                 Home
               </Link>
             </li>
@@ -43,7 +43,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link class="a5" to="/works">
+              <Link class="a7" to="/works">
                 Projects
               </Link>
             </li>
@@ -66,7 +66,7 @@ function Navbar() {
                   </p>
                 </div>
                 <div>
-                  <Link to="/">home</Link>
+                  <Link to="/final_portfolio">home</Link>
                   <Link to="/about">About</Link>
                   <Link to="/team">Our Team</Link>
                   <Link to="/skills">Skills</Link>
