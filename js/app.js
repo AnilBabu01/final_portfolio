@@ -19,6 +19,8 @@ let aa5=document.querySelector('.a5');
 
 let aa6=document.querySelector('.a6');
 
+let aa7=document.querySelector('.a7');
+
 aa1.addEventListener('click',function(){
        mobileNav.classList.remove("open");
 
@@ -48,6 +50,10 @@ aa6.addEventListener('click',function(){
        mobileNav.classList.remove("open");
 
  });
+ aa7.addEventListener('click',function(){
+      mobileNav.classList.remove("open");
+
+});
 
  hamberger.addEventListener('click',function(){
       

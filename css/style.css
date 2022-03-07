@@ -1212,7 +1212,7 @@ header.About
         color: #3ab4ef;
         margin-bottom: 6rem;
         text-align: center;
-        margin-right: -200px;
+        
     }
     .section-heading {
         color: var(--secondary);
@@ -1220,7 +1220,7 @@ header.About
         margin-bottom: 1rem;
         line-height: 0.5;
         margin-top: -80px;
-        margin-left: 200px;
+        
     }
             .carddd {
             margin-left: 200px;
