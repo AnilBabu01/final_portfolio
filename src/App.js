@@ -11,7 +11,7 @@ import Team from './Components/Team';
 import Work from './Components/Work';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './Components/Home';
-import Nav from './Components/Nav';
+
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Navbar></Navbar>
         
         <Routes>
-          <Route path='/' element={<Home></Home>}/>
+          <Route path='/final_portfolio' element={<Home></Home>}/>
           <Route path='/about' element={<About></About>}/>
           <Route path='/team' element={<Team></Team>}/>
           <Route path='skills' element={<Skills></Skills>}/>
