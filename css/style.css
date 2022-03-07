@@ -255,6 +255,11 @@ color: var(--ternary);
 
 
 }
+.formcontainer{
+    width: 500px;
+    height: 500px;
+    margin-left: 220px;
+}
 .bar .progress-line .html
 {
 
@@ -595,7 +600,7 @@ section.Conttact .input-wrapper
 {
 
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	grid-gap: 2rem;
 	margin-bottom: 2rem;
 
@@ -904,6 +909,7 @@ section.blog .card-wrappers {
         display: grid;
         grid-gap: 3rem;
         margin-left: 230px;
+        margin-top: -80px;
     }
 
     section.Conttact .input-wrapper2 {
@@ -924,7 +930,7 @@ section.blog .card-wrappers {
 
     .Conttact {
         margin-top: px;
-        margin-top: -80px;
+       
     }
 
     .skills-bar
@@ -1208,6 +1214,11 @@ header.About
 @media (max-width:430px)
 {
 
+    .formcontainer{
+
+        margin-left: 15px;
+        width: 300px;
+    }
     .section-heading +p {
         color: #3ab4ef;
         margin-bottom: 6rem;
@@ -1459,11 +1470,3 @@ FORM {
     margin-top: 80px;
     margin-left: -50px;
 }
-
-
-
-
-
-
-
-
