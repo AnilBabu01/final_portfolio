@@ -346,11 +346,11 @@ margin-top: 20pxs;
 	text-align: center;
 }
 
-.our-teams
-{
-
-	background: lightblue;
+.our-teams {
+    background: lightblue;
     padding-left: 115px;
+    height: 2600px;
+    margin-left: -100px;
 }
 .card-wrappers
 {
@@ -550,7 +550,7 @@ section.blog
 {
 	background: green;
 	align-items: center;
-    margin-left: -200px;
+        margin-left: -200px;
 }
 section.blog .card-wrappers .cardd p
 {
@@ -1412,7 +1412,11 @@ FORM {
 }
 .homebtn
 {
-    color: #070606;
+    color: #1ae21a;
+    width: 200px;
+    height: 40px;
+    background-color: #6665ee;
+    border-radius: 20px;
 }
 
 
