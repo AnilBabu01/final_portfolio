@@ -1221,9 +1221,8 @@ header.About
     }
     .section-heading +p {
         color: #3ab4ef;
-        margin-bottom: 6rem;
         text-align: center;
-        
+        margin-left: 200px;
     }
     .section-heading {
         color: var(--secondary);
@@ -1231,11 +1230,11 @@ header.About
         margin-bottom: 1rem;
         line-height: 0.5;
         margin-top: -80px;
-        
+        margin-left: 200px;
     }
             .carddd {
             margin-left: 200px;
-            background-color: red;
+            background-color: rgb(199, 78, 22);
         }
 
     
